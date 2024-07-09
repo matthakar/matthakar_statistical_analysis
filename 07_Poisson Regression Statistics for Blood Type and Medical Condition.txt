@@ -1,0 +1,31 @@
+
+Call:
+glm(formula = Count ~ `Blood Type` + `Medical Condition`, family = poisson, 
+    data = long_df)
+
+Coefficients:
+                                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                      7.0637182  0.0152614 462.850   <2e-16 ***
+`Blood Type`A+                  -0.0018671  0.0169486  -0.110    0.912    
+`Blood Type`AB-                 -0.0034498  0.0169553  -0.203    0.839    
+`Blood Type`AB+                 -0.0031618  0.0169540  -0.186    0.852    
+`Blood Type`B-                  -0.0035938  0.0169559  -0.212    0.832    
+`Blood Type`B+                  -0.0034498  0.0169553  -0.203    0.839    
+`Blood Type`O-                  -0.0132892  0.0169972  -0.782    0.434    
+`Blood Type`O+                  -0.0074896  0.0169724  -0.441    0.659    
+`Medical Condition`Asthma       -0.0133025  0.0147074  -0.904    0.366    
+`Medical Condition`Cancer       -0.0087403  0.0146905  -0.595    0.552    
+`Medical Condition`Diabetes     -0.0004298  0.0146600  -0.029    0.977    
+`Medical Condition`Hypertension -0.0067914  0.0146834  -0.463    0.644    
+`Medical Condition`Obesity      -0.0083069  0.0146889  -0.566    0.572    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+(Dispersion parameter for poisson family taken to be 1)
+
+    Null deviance: 36.864  on 47  degrees of freedom
+Residual deviance: 34.812  on 35  degrees of freedom
+AIC: 487.56
+
+Number of Fisher Scoring iterations: 3
+

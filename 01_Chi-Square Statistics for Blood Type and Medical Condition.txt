@@ -1,0 +1,6 @@
+
+	Pearson's Chi-squared test
+
+data:  contingency_table
+X-squared = 34.82, df = 35, p-value = 0.4768
+
